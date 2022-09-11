@@ -1,3 +1,5 @@
+#! this is the main file that we are going to work with
+
 """
 Django settings for studybud project.
 
@@ -25,11 +27,12 @@ SECRET_KEY = 'django-insecure-wlewj2)uv$kke*ber4a()$6kh+i^$vwz%0*s$jpam3@r233@)i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] #! all the allowed urls that are allowed to go to this website
 
 
 # Application definition
 
+#^ we want to let this project know about this new app that we added
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'base.apps.BaseConfig'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +58,10 @@ ROOT_URLCONF = 'studybud.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR/'templates'
+            
+        ],#! we will let django know that we have a new folder for our templates and this will tell it where to look
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
