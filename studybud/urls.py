@@ -1,3 +1,5 @@
+#! this is all the url routing to our project when you go to a certain page this is where we configure all the url so its going to be just a list of all the different url paths
+
 """studybud URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,8 +16,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
+
+
+#! to create a view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #! we want to tell django when we go to the website this file is going to handle all the core url routing 
+    path('',include('base.urls'))
 ]
+
+
+
+
+
