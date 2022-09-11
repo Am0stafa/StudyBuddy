@@ -58,7 +58,10 @@ ROOT_URLCONF = 'studybud.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR/'templates'
+            
+        ],#! we will let django know that we have a new folder for our templates and this will tell it where to look
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
