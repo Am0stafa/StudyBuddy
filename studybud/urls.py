@@ -24,8 +24,10 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     #! we want to tell django when we go to the website this file is going to handle all the core url routing 
-    path('',include('base.urls'))
+    path('',include('base.urls')),
+    path('api/',include('base.api.urls')),
 ]
+
 
 
 
