@@ -145,15 +145,7 @@ a {
   object-position: center;
 }
 
-.avatar::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: var(--color-gray);
-  z-index: 111;
-  border-radius: 50%;
-  border: 0.3rem solid var(--color-dark);
-}
+
 
 .avatar.active::after {
   background-color: var(--color-success);
