@@ -4,15 +4,7 @@
 <br/>
 
 <p align="center">
-In this project I've tried to build a discord like app with Python Django ...
-<br/>
-</p>
-<p align="center">
-<a href="https://github.com/D-kn/StudyBuddy">View Code</a>
-<br />
-<br />
 See the live app here: 
-<a href="https://studybudroom.herokuapp.com/"><strong>https://studybudroom.herokuapp.com</strong></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
