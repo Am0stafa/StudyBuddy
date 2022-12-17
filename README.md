@@ -1,6 +1,6 @@
 <br/>
 <p align="center"><img src="https://raw.githubusercontent.com/EdricChan03/studybuddy-android/main/art/Logotype/Logotype512.png" alt="Studdy Buddy Logo" height="60px"></p>
-<h1 align="center">StudyBuddy</h1>
+
 <br/>
 
 <p align="center">
