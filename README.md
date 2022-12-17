@@ -122,4 +122,3 @@ python manage.py runserver
 Then click on [http://localhost:8000](http://localhost:8000)
 
 
-
