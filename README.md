@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-See the live app here: 
+See the live app here: https://www.studybud.dev/
 </p>
 
 <!-- TABLE OF CONTENTS -->
